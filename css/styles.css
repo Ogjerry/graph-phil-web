@@ -1,0 +1,76 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+    font-size: 14px;
+    color: #333;
+}
+
+nav {
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+.scrolling-container {
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+.main-scrollable {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.figure img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+    align-items: center;
+    height: 50vh;
+    padding: 20px 50px; /* Reduced top padding */
+    text-align: center;
+}
+
+.main-content {
+    width: 70%;
+    border: 1px solid #ddd;
+    margin-top: 20px; /* Reduced margin at the top */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content-text {
+    flex-basis: 80%;
+}
+
+.content-image {
+    flex-basis: 20%;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.content-image img {
+    width: 10%;
+    flex: 0 0 20%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.figure-detail {
+    float: right;
+    margin: 20px; /* Adjusted margin */
+    margin-left: 20px;
+}
+
+/* Add additional CSS styles for layout and design */
