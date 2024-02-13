@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Front } from './front/front';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'p-h';
+  todo: Front[] = [
+    {
+      title: 'p-h',
+      description: 'got the object'
+    },
+    {
+      title: 'second TITLE',
+      description: 'second description'
+    }
+  ]
 }
