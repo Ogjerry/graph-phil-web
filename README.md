@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 60264acbe29feb7a10cc3fc40437a451e448a6a6
 # PH
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
@@ -25,3 +29,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<<<<<<< HEAD
+=======
+=======
+# graph-phil-web
+Shared project that uses a web page with dynamic relation map to explore/explain the history of philosophy and the relationship of famous philosophers and their contributions
+>>>>>>> 38671b417717dc1866d2d573006a6b0618a036db
+>>>>>>> 60264acbe29feb7a10cc3fc40437a451e448a6a6
